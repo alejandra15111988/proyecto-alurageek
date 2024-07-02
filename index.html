@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/Logo.png" class="logo">
+    </header>
+
+    <main class="main">
+        <section class="products-section">
+            <h1>MIS PRODUCTOS</h1>
+            <div  class="product-container" data-product>
+
+
+         </div>
+            
+        </section>
+
+        
+            
+        <form class="form" data-form>
+            <p>AGREGAR PRODUCTO</p>
+            <input data-nombre placeholder="nombre..." type="text">
+            <input data-precio placeholder="precio..."  type="text">
+            <input data-imagen placeholder="imagen...." type="text">
+
+            <div class="button-container">
+                <button type="submit" class="button-submit" id="button">Enviar...</button>
+                <button type="reset" class="button-clear" id="button">Limpiar...</button>
+
+            </div>
+
+         </form>
+        
+
+    </main>
+    <footer class="footer-container">
+        <img src="img/Logo.png" class="logo">
+        <p>Desarrollado por :Alejandra MUÑOZ</p>
+        <p>Alura Latam 2024</p>
+
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    
+    
+</body>
+</html>

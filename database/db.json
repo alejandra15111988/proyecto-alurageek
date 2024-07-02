@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "d0ce",
+      "nombre": "Mugs Mario Bros Y Luigi",
+      "precio": "$ 44.499",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_871455-MCO74732555761_022024-O.webp"
+    },
+    {
+      "id": "f844",
+      "nombre": "Mugs Wonder Woman Mujer Maravilla Pocillo Serie Geeks",
+      "precio": "$ 24.499",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_671683-MCO72769757911_112023-F.webp"
+    },
+    {
+      "id": "e8ae",
+      "nombre": "Mugs Sansa Stark Pocillo",
+      "precio": "$ 24.499",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_861523-MCO74733114635_022024-O.webp"
+    },
+    {
+      "id": "cbf8",
+      "nombre": "Morral Espald Sorprendete Hombre Arañ Maleta Portafolio Gris",
+      "precio": "$ 134.999",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_860381-MCO73089676789_112023-O.webp"
+    },
+    {
+      "id": "d0f0",
+      "nombre": "Mouse Pad Bellota Chicas Súper Poderosas Gamers",
+      "precio": "$ 17.499",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_969817-MCO76722441009_052024-F.webp"
+    },
+    {
+      "id": "8bb6",
+      "nombre": "Buzo Capota Chicas Superpoderosas Saco Hoodies Niño-adulto",
+      "precio": "$ 94.900",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_695028-MCO43820386376_102020-O.webp"
+    },
+    {
+      "id": "8e2e",
+      "nombre": "Mugs Taza De Ceramica Las Chicas Super Poderosas 01 Agregar a favoritos $ 24.999",
+      "precio": "$ 24.999",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_810309-MCO76539458026_052024-O.webp"
+    }
+  ]
+}

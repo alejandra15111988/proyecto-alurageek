@@ -1,0 +1,14 @@
+{
+    "funciones": {
+      "api/server.js": {
+        "memoria": 1024,
+        "incluir archivos": "db.json"
+      }
+    },
+    "reescribe": [
+      {
+        "fuente": "/(.*)",
+        "destino": "api/server.js"
+      }
+    ]
+  }

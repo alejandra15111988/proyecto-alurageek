@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilos generales */
+body {
+    background: #ec9109
+}
+
+/* Estilos del encabezado */
+.header {
+    width: 100%;
+    height: 96px;
+    padding: 20px 0;  
+    background: rgba(83, 0, 200, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del contenedor principal */
+.main {
+    
+    max-width: 100%;  
+    background: #73c00e;
+    border-radius: 10px;
+    padding: 60px 40px  ;  
+    gap: 70px;
+    margin: auto;
+    display: flex;
+    
+    
+}
+
+/* Estilos de la sección de productos */
+.products-section {
+    flex: 1;
+    padding: 40px;
+    gap: 40px;
+    background-color: rgb(30, 5, 77);
+
+
+}
+
+section.academic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos de párrafo */
+.main h1 {
+    font-family: 'Press Start 2P', cursive;  
+    font-size: 1.5em; 
+    line-height: 1.5em;
+    display: flex; 
+    color: rgba(0, 0, 0, 1);  
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    justify-content: center /*codigo para centrar texto.*/
+}
+
+/* Estilo del contenedor de productos */
+.product-container {
+    max-width: 100%;
+    height: 400px; /* Altura fija para el contenedor */
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+    margin: 0 30px;
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px; /* Añade un padding para un mejor aspecto */
+    overflow-y: auto; /* Muestra la barra de desplazamiento vertical solo cuando sea necesario */
+}
+
+/* Estilo para cada tarjeta de producto */
+.card {
+    flex: 1 1 calc(40% - 40px); /* Calcula el ancho del card basado en el contenedor */
+    max-width: 50%; 
+    border-radius: 10px; /* Ajusta el borde redondeado para mejor apariencia */
+    border: 3px solid; 
+    padding: 20px; /* Ajusta el padding para mejor diseño */
+    background: rgba(93, 4, 217, 1);
+    margin: 20px;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total */
+    display: flex;
+    flex-direction: column; /* Alinea el contenido de forma vertical */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegura que la imagen no se desborde */
+}
+
+.img-container img {
+    max-height: 200px; /* Limita la altura máxima de la imagen */
+    width: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+}
+
+.card-container--info,
+.card-container--value {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.card-container--info p,
+.card-container--value p {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 5px 0; /* Añade un margen entre los párrafos */
+}
+
+.delete-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.delete-button img {
+    width: 50px; /* Tamaño fijo para el icono */
+    height: auto; /* Mantiene la proporción del icono */
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
+.form{
+      
+    max-width: 400px; 
+    padding: 40px;
+    gap: 40px;
+    background-color: rgb(241, 26, 91);
+    float: right;
+}
+
+.form p{
+    font-family: 'Press Start 2P', cursive;  
+    font-weight: 400;
+    font-size: 1.5em; 
+    line-height: 1.5em;
+    display: flex;
+    align-items: center;  
+    color: rgba(0, 0, 0, 1);  
+    text-align: center;
+    justify-content: center
+
+}
+
+.form{
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
+/* Estilos para el título del formulario */
+.form p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los campos de entrada */
+.form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+/* Estilos para los contenedores de botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para los botones */
+.button-submit,
+.button-clear {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para el botón de envío */
+.button-submit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-submit:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el botón de limpiar */
+.button-clear {
+    background-color: #f44336;
+    color: white;
+}
+
+.button-clear:hover {
+    background-color: #e53935;
+}
+
+.footer-container {
+    width: 100%;
+    height: 96px;
+    padding: 20px 0;  
+    background: rgba(83, 0, 200, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white; /* Agrega color para mejorar la legibilidad */
+}
+
+/* Medios de comunicación para adaptabilidad */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .footer-container p {
+        font-size: 12px;
+    }
+}
+
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .form {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+}
